@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Unit Tests
         run: |
-          pytest
+          python -m pytest
 
   build-and-push:
     name: Build & Push Container Image
